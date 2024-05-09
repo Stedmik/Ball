@@ -11,5 +11,6 @@ public class bullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * bulletForce, ForceMode.Impulse);
+        Destroy(gameObject, 2);
     }
 }
