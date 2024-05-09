@@ -7,7 +7,7 @@ public class coinCollector : MonoBehaviour
 {
     private int Coin = 0;
 
-    private TextMeshProUGUI coinText;
+    public TextMeshProUGUI coinText;
 
 
     private void OnTriggerEnter(Collider other)
